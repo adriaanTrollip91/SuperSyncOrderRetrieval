@@ -22,6 +22,9 @@ class UserFactory extends Factory
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'baseurl' => 'https://scs-widget-warehouse.myshopify.com/admin/api/', // baseurl
+            'apikey' => 'a47fbb47c703349509c9ab877373b456', // api key
+            'accesstoken' => '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', // Admin API Access Token
             'remember_token' => Str::random(10),
         ];
     }
