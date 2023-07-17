@@ -24,12 +24,12 @@ $resultArray = json_decode($result, true);
     <table class="table">
         <thead class="thead-dark">
             <tr>
-                <th scope="col">Customar Id</th>
-                <th scope="col">email</th>
-                <th scope="col">first name</th>
-                <th scope="col">last name</th>
-                <th scope="col">orders count</th>
-                <th scope="col">total spent</th>
+                <th scope="col">Customar ID</th>
+                <th scope="col">Email</th>
+                <th scope="col">First name</th>
+                <th scope="col">Last name</th>
+                <th scope="col">Orders count</th>
+                <th scope="col">Total spent</th>
             </tr>
             <?php
             $today = date('Y-m-d h:i:s');
